@@ -1,14 +1,12 @@
 {
-  "name": "digestable_jd",
+  "name": "is_it_invasive",
   "version": "1.0.0",
   "private": true,
-  "main": "index.ts",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "startServer": "nodemon src/server.ts"
+    "lint": "next lint"
   },
   "author": "",
   "license": "ISC",
@@ -16,22 +14,19 @@
     "autoprefixer": "10.4.14",
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
-    "express": "^4.18.2",
     "next": "13.4.13",
-    "openai": "^3.3.0",
     "postcss": "8.4.27",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "tailwindcss": "3.3.3"
+    "tailwindcss": "3.3.3",
+    "typescript": "^5.1.6"
   },
   "devDependencies": {
+    "@types/cors": "^2.8.13",
     "@types/node": "^20.4.9",
     "@types/react": "18.2.19",
     "@types/react-dom": "18.2.7",
     "eslint": "8.46.0",
-    "eslint-config-next": "13.4.13",
-    "nodemon": "^3.0.1",
-    "ts-node": "^10.9.1",
-    "typescript": "^5.1.6"
+    "eslint-config-next": "13.4.13"
   }
 }
